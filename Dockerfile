@@ -1,4 +1,4 @@
-FROM docker.acmcoder.com/public/maven:3.5.3-jdk-8
+FROM docker.acmcoder.com/public/maven:3.5.3-jdk-8-aliyun
 COPY ./* /usr/src/mymaven/
 WORKDIR /usr/src/mymaven
 RUN mvn package
